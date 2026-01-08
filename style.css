@@ -39,6 +39,13 @@
   background: #498460;
 }
 
+.button-link {
+  font-weight: 400;
+  font-size: 15px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #498460;
+}
 /* ===== fonts ===== */
 
 @font-face {
@@ -184,4 +191,85 @@
   position: absolute;
   right: 10px;
   top: 30%;
+}
+
+/* ====== main ====== */
+.main-openpage-discount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-main-openpage-content {
+  margin-bottom: 17px;
+  margin-top: 30px;
+}
+
+.left-main-openpage-content > h3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 278%;
+  color: #868686;
+  margin-bottom: 36px;
+}
+
+.left-main-openpage-content > h1 {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 131%;
+  color: #000;
+  height: 88px;
+  width: 583px;
+}
+
+.main-openpage-price {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  width: 356px;
+  height: 57px;
+}
+
+.main-openpage-newprice {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 131%;
+  color: #000;
+}
+
+.openpage-button-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 454px;
+  height: 48px;
+}
+
+.maloi {
+  border-radius: 5px;
+  width: 643px;
+  height: 400px;
+}
+
+
+/* slider */
+
+.slider-dots{
+  gap:5px;
+  margin-right: 33px;
+}
+
+/* .dots .circle:hover path{
+  fill: #7BC242;
+} */
+
+
+
+
+.right-main-openpage-slider{
+  width: 689px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
