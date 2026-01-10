@@ -194,10 +194,12 @@
 }
 
 /* ====== main ====== */
+
 .main-openpage-discount {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: linear-gradient(0deg, #f9f9f7 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .left-main-openpage-content {
@@ -251,25 +253,66 @@
   height: 400px;
 }
 
-
 /* slider */
 
-.slider-dots{
-  gap:5px;
+.slider-dots {
+  gap: 5px;
   margin-right: 33px;
 }
 
-/* .dots .circle:hover path{
-  fill: #7BC242;
-} */
-
-
-
-
-.right-main-openpage-slider{
+.right-main-openpage-slider {
+  background: linear-gradient(0deg, #f9f9f7 0%, rgba(255, 255, 255, 0) 100%);
   width: 689px;
   height: 400px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+/* ======= main ======= */
+
+.main-openpage-aboutuscards-content {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-openpage-aboutuscards-content > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  width: 325px;
+  height: 291px;
+  background: #fff;
+}
+.main-openpage-aboutuscards-content li > img {
+
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.main-openpage-aboutuscards-content li > h1 {
+  margin-bottom: auto;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #000;
+}
+
+
+
+.main-openpage-aboutuscards-content li > p {
+  margin-bottom: 37px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 167%;
+  text-align: center;
+  color: #585858;
+  height: 105px;
+  width: 278px;
 }

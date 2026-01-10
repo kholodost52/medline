@@ -3,6 +3,9 @@ $(document).ready(function(){
     arrows: false,
     adaptiveHeight: true,
     draggable: false,
-    appendDots: $('.slider-dots')
+    // dots: true,
+    // appendDots: $('.slider-dots'),
   });
 });
+
+// хз как запустить и настроить другого вида dots
