@@ -13,6 +13,9 @@
   /* globalnaya aksioma dlya vsei verstki */
 }
 
+#gray {
+  background: #f9f9f7;
+}
 /* ====== button ========= */
 
 .button {
@@ -39,6 +42,13 @@
   background: #498460;
 }
 
+#white {
+  background: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
 .button-link {
   font-weight: 400;
   font-size: 15px;
@@ -46,11 +56,13 @@
   text-decoration-skip-ink: none;
   color: #498460;
 }
+
 /* ===== fonts ===== */
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./fonts/Montserrat-Regular.ttf") format("ttf"),
+  src:
+    url("./fonts/Montserrat-Regular.ttf") format("ttf"),
     url("./fonts/Montserrat-Regular.woff") format("woff"),
     url("./fonts/Montserrat-Regular.woff2") format("woff2");
   font-weight: 400; /* normal */
@@ -60,7 +72,8 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./fonts/Montserrat-Medium.ttf") format("ttf"),
+  src:
+    url("./fonts/Montserrat-Medium.ttf") format("ttf"),
     url("./fonts/Montserrat-Medium.woff") format("woff"),
     url("./fonts/Montserrat-Medium.woff2") format("woff2");
   font-weight: 500; /* normal */
@@ -70,7 +83,8 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./fonts/Montserrat-SemiBold.ttf") format("ttf"),
+  src:
+    url("./fonts/Montserrat-SemiBold.ttf") format("ttf"),
     url("./fonts/Montserrat-SemiBold.woff") format("woff"),
     url("./fonts/Montserrat-SemiBold.woff2") format("woff2");
   font-weight: 600; /* normal */
@@ -80,7 +94,8 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./fonts/Montserrat-Bold.ttf") format("ttf"),
+  src:
+    url("./fonts/Montserrat-Bold.ttf") format("ttf"),
     url("./fonts/Montserrat-Bold.woff") format("woff"),
     url("./fonts/Montserrat-Bold.woff2") format("woff2");
   font-weight: 700; /* normal */
@@ -290,7 +305,6 @@
   background: #fff;
 }
 .main-openpage-aboutuscards-content li > img {
-
   margin-top: 25px;
   margin-bottom: 20px;
 }
@@ -304,8 +318,6 @@
   color: #000;
 }
 
-
-
 .main-openpage-aboutuscards-content li > p {
   margin-bottom: 37px;
   font-weight: 400;
@@ -315,4 +327,55 @@
   color: #585858;
   height: 105px;
   width: 278px;
+}
+
+/* =========== main-doctors ========= */
+
+.main-services {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+  width: 1401px;
+  height: 805px;
+}
+
+.main-selectdoctor {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#firstcolumn {
+  margin-left: 64px;
+}
+#secondcolumn {
+  margin-left: 25px;
+}
+
+.main-selectdoctor > a {
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 281%;
+}
+
+
+.main-selectdoctor > a:hover {
+  text-decoration: underline;
+  color: #498460;
+  transition: 0.4s;
+}
+
+.button-selectdoctor {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  width: 224px;
+  height: 54px;
+  margin-bottom: 20px;
+}
+
+.button-selectdoctor, #white:hover {
+  background: #498460;
+  color: #fff;
+  transition: 0.4s;
 }
