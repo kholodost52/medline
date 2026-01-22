@@ -508,3 +508,44 @@
   display: flex;
   gap: 19px;
 }
+
+
+/* ===== slider with doctors === */
+
+.dots-doctors-slider > ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 34px;
+}
+
+.dots-doctors-slider >ul > li {
+  margin-right: 6px;
+}
+
+
+
+.dots-doctors-slider > .slick-dots > .slick-active > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #7bc242; /* fill */
+  border: 0.5px solid #a3a3a3; /* stroke */
+  box-sizing: border-box;
+}
+
+
+.dots-doctors-slider > .slick-dots > li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #d9d9d9; /* fill */
+  border: 0.5px solid #a3a3a3; /* stroke */
+  box-sizing: border-box;
+}
