@@ -17,7 +17,6 @@ $(document).ready(function () {
     adaptiveHeight: true,
     draggable: true,
     dots: true,
-    infinite: true,
     slidesToShow: 3,
     rows: 2,
     appendDots: $('.dots-doctors-slider'),

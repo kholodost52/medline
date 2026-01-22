@@ -509,21 +509,18 @@
   gap: 19px;
 }
 
-
 /* ===== slider with doctors === */
 
-.dots-doctors-slider > ul{
+.dots-doctors-slider > ul {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 34px;
 }
 
-.dots-doctors-slider >ul > li {
+.dots-doctors-slider > ul > li {
   margin-right: 6px;
 }
-
-
 
 .dots-doctors-slider > .slick-dots > .slick-active > button {
   display: flex;
@@ -537,7 +534,6 @@
   box-sizing: border-box;
 }
 
-
 .dots-doctors-slider > .slick-dots > li {
   display: flex;
   align-items: center;
@@ -548,4 +544,44 @@
   background: #d9d9d9; /* fill */
   border: 0.5px solid #a3a3a3; /* stroke */
   box-sizing: border-box;
+}
+
+/* =========== about-hospital ========== */
+.about-hospital-inner {
+  display: flex;
+  margin-top: 80px;
+}
+
+.about-hospital-wrapper {
+  margin-left: 49px;
+}
+
+.text-about-title {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 131%;
+  color: #000;
+  margin-bottom: 26px;
+}
+
+.text-about {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  color: #000;
+  margin-bottom: 18px;
+}
+
+.text-about-more > a {
+  font-weight: 400;
+  font-size: 15px;
+  color: #000;
+}
+
+.text-about-more > a:hover {
+  text-decoration: underline;
+  color: #498460;
+  transition: 0.4s;
+  font-weight: 400;
+  font-size: 15px;
 }
