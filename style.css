@@ -585,3 +585,123 @@
   font-weight: 400;
   font-size: 15px;
 }
+
+/* ======== hospital adresss ====== */
+
+#green {
+  color: #498460;
+}
+
+#blue {
+}
+
+#purple {
+  color: #b254a4;
+}
+
+#orange {
+  color: #ff9314;
+}
+
+.adress-hospital > .container > h3 {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 126%;
+  text-align: center;
+  color: #000;
+  margin-top: 77px;
+  margin-bottom: 22px;
+}
+
+.adress-hospital-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+}
+
+.hospital-card {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  width: 331px;
+  height: 358px;
+  background: #f9f9f7;
+}
+
+.hospital-card-inner {
+  margin-top: 22px;
+  margin-left: 36px;
+  margin-bottom: 33px;
+  margin-right: 39px;
+}
+
+.hospital-metro {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.hospital-metro-inner {
+  margin-left: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 167%;
+  color: #0e97c2;
+}
+
+.hospital-name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.hospital-name-inner {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 230%;
+  color: #000;
+  margin-left: 8px;
+}
+
+.adress-hospital-card {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  color: #585858;
+  margin-bottom: 15px;
+}
+
+.line-card {
+  border: 1px solid #ddd;
+  width: 256px;
+  height: 0px;
+  margin-bottom: 18px;
+}
+
+.worktime {
+  display: flex;
+  margin-bottom: 7px;
+}
+
+.worktime-logo {
+  margin-right: 7px;
+}
+
+.phonenumber {
+  display: flex;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.phonenumber-inner {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 167%;
+  color: #585858;
+  margin-left: 7px;
+}
+
+.hospital-card > .hospital-card-inner > button {
+  width: 256px;
+  height: 48px;
+}
