@@ -705,3 +705,10 @@
   width: 256px;
   height: 48px;
 }
+
+/* ===== map medline ===== */
+
+.map-medline {
+  border-radius: 7px;
+  margin-top: 36px;
+}
